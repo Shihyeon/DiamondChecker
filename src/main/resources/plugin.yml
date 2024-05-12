@@ -1,0 +1,13 @@
+main: kr.shihyeon.diamondchecker.DiamondCheckerPlugin
+version: 1.0.0-SNAPSHOT
+name: DiamondChecker
+api-version: '1.20'
+authors:
+  - Shihyeon
+commands:
+  체크:
+    usage: /체크
+  다이아:
+    usage: /다이아 <추가/제거/설정> <개수>
+    aliases:
+      - c
